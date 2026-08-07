@@ -10,6 +10,10 @@
   <a href="#-technologies">Technologies</a>
 </p>
 
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
 <br>
 
 > **Note:** The project's source code and terminal outputs are written in Portuguese, as it was my starting point into programming.
