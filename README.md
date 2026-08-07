@@ -35,6 +35,10 @@ This project was built in two main stages:
 ## 💡 Reference
 This project was inspired by the teachings from the course available [AT THIS LINK](https://www.youtube.com/watch?v=GhLCjn1Gs84).
 
+## 📃 License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more details.
+
 ---
 
 <p align="center">
