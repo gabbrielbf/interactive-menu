@@ -31,15 +31,11 @@ This project was built in two main stages:
 
 - Python
 
+
 ## 💡 Reference
 This project was inspired by the teachings from the course available [AT THIS LINK](https://www.youtube.com/watch?v=GhLCjn1Gs84).
 
-<<<<<<< HEAD
 ---
-=======
-Projeto criado com intuito de testar meus aprendizados em Python básico. Se trata de um menu interativo no qual sua lógica por trás consiste em manipulação de várias listas. É funcional e contém tratamento de erros para TODAS as tentativas de errar cometidas pelo usuário usuário; Por parte, ele já está disponível para teste pessoal, sugestões de melhorias e adição de recursos nas opções.
-## 🔖 Layout
->>>>>>> be2fa81086e1ef32cd6aff3f3635bb0421fd2dc6
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/gabbrielbf">Gabriel Bastos</a>
