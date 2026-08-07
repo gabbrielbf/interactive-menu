@@ -2,6 +2,8 @@ import time
 import re
 
 def exibir_carregamento(mensagem="Carregando"):
+    """ função para exibir um carregamento animado a cada execução do programa """
+
     print(f"\n{mensagem}", end="", flush=True)
     for _ in range(3):
         time.sleep(0.5)
@@ -10,6 +12,8 @@ def exibir_carregamento(mensagem="Carregando"):
     print('\nSucesso!\n')
 
 def menu_interativo():
+    """ função para exibir um menu interativo e retornar uma opção numérica """
+
     print('=' * 89)
     print(' Participantes - EVENTO ABC ')
     print('=' * 89)
@@ -25,6 +29,9 @@ def menu_interativo():
         return -1
 
 def validar_nome():
+    """ função para fazer uma validação de APENAS NOMES COM LETRAS, sem números ou espaços, conver
+    tendo os mesmos para letra maiúscula cada primeiro caractere """
+
     while True:
         nome = input('Digite o nome do participante: ').strip().title()
         if nome and not re.findall(r'[^a-zA-Zà-úÀ-Ú\s]', nome):
@@ -32,6 +39,8 @@ def validar_nome():
         print('[❌ERRO]! Digite apenas nomes válidos.')
 
 def listar_participantes(lista):
+    """ listar os participantes da lista (caso exista algum nela) """
+
     if not lista:
         print('[❌ERRO]! Nenhum participante cadastrado!\n')
         return False
@@ -43,6 +52,8 @@ def listar_participantes(lista):
     return True
 
 def cadastrar_participante(lista):
+    """ cadastrar participante com a validação de nome """
+
     exibir_carregamento()
     while True:
         lista.append(validar_nome())
@@ -51,7 +62,10 @@ def cadastrar_participante(lista):
             break
 
 def atualizar_participante(lista):
-    if not listar_participantes(lista): return
+    """ atualizar um participante existente na lista a partir de seu índice """
+
+    if not listar_participantes(lista): 
+        return
     try:
         indice = int(input(f'Digite o número (1 a {len(lista)}) que deseja alterar: ')) - 1
         if 0 <= indice < len(lista):
@@ -63,6 +77,8 @@ def atualizar_participante(lista):
         print('[❌ERRO]! Entrada inválida.')
 
 def remover_participante(lista):
+    """ remover participante da lista a partir de seu índice """
+
     if not listar_participantes(lista): return
     try:
         indice = int(input(f'Digite o número (1 a {len(lista)}) de quem deseja remover: ')) - 1
@@ -75,6 +91,8 @@ def remover_participante(lista):
         print('[❌ERRO]! Entrada inválida.')
 
 def main():
+    """ código principal, enxuto e refatorado """
+
     lista = []
     while True:
         decisao = menu_interativo()

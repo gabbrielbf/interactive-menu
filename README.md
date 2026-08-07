@@ -1,25 +1,41 @@
-<h1 align="center"> Menu Interativo  </h1>
+<h1 align="center"> 🐍 Interactive Menu (Python Evolution) </h1>
 
 <p align="center">
-Programa gratuito, desenvolvido por mim com auxílio de cursos fornecidos pela faculdade de ADS na qual estou matriculado.
+  A study project dedicated to learning Python and Git, recording my evolution journey as a developer.
+</p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-about-the-project">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-evolution">Evolution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>
+</p>
+
 <br>
 
-## 🚀 Tecnologias
+> **Note:** The project's source code and terminal outputs are written in Portuguese, as it was my starting point into programming.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 📌 About the Project
+
+This repository holds my very first contact with the Python language and code versioning. It is an **Interactive Menu** initially developed as part of my degree in Systems Analysis and Development (ADS).
+
+The main goal of this project is not just functionality, but to serve as a **learning diary**, documenting the transition from an initial code (typical of beginners) to a refactored and cleaner version.
+
+## 📈 Evolution
+
+This project was built in two main stages:
+
+1. **The Initial Version:** My first commit, representing the beginning of my learning path, where the priority was just to make the code "work" at any cost.
+2. **The Refactoring:** Months later, I revisited the code with a Clean Code mindset. I applied improvements to structure, readability, and list manipulation, fixing logic flaws (such as index handling) that existed in the first version.
+
+## 🚀 Technologies
 
 - Python
 
-## 💻 Projeto
+## 💡 Reference
+This project was inspired by the teachings from the course available [AT THIS LINK](https://www.youtube.com/watch?v=GhLCjn1Gs84).
 
-Projeto criado com intuito de testar meus aprendizados em Python básico. Se trata de um menu interativo no qual sua lógica por trás consiste em manipulação de várias listas. É funcional e contém tratamento de erros para grande parte das tentativas de errar cometidas pelo usuário usuário; Porém, durante exibições das listas nas opções 3 e 4, os INDEX exibidos não correspondem aos específicos itens dentro da lista. Ajustarei esses erros para tornar meu algorítmo 100%. Por parte, ele já está disponível para teste pessoal, sugestões de melhorias e adição de recursos nas opções.
-## 🔖 Layout
+---
 
-Você pode visualizar o layout do projeto ORIGINAL no qual me baseei através [DESSE LINK](https://www.youtube.com/watch?v=GhLCjn1Gs84). Não é necessário ter conta no [YouTube](https://www.youtube.com/) para acessá-lo.
-
-Feito por [Gabriel Bastos](https://app.rocketseat.com.br/me/gabbrielbf) com auxílio do Rocket Seat! [Participe da nossa comunidade!](https://discord.gg/rocketseat) ❤️
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/gabbrielbf">Gabriel Bastos</a>
+</p>
